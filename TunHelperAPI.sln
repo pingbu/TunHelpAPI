@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TunHelperAPI", "TunHelperAPI\TunHelperAPI.vcxproj", "{123FF8F2-0F70-4730-8B92-6EAF946AF713}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TunHelperAPITest", "TunHelperAPITest\TunHelperAPITest.vcxproj", "{A647E442-F7CC-45EF-8602-F599BEC09AB3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{123FF8F2-0F70-4730-8B92-6EAF946AF713} = {123FF8F2-0F70-4730-8B92-6EAF946AF713}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{123FF8F2-0F70-4730-8B92-6EAF946AF713}.Debug|Win32.ActiveCfg = Debug|Win32
+		{123FF8F2-0F70-4730-8B92-6EAF946AF713}.Debug|Win32.Build.0 = Debug|Win32
+		{123FF8F2-0F70-4730-8B92-6EAF946AF713}.Release|Win32.ActiveCfg = Release|Win32
+		{123FF8F2-0F70-4730-8B92-6EAF946AF713}.Release|Win32.Build.0 = Release|Win32
+		{A647E442-F7CC-45EF-8602-F599BEC09AB3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A647E442-F7CC-45EF-8602-F599BEC09AB3}.Debug|Win32.Build.0 = Debug|Win32
+		{A647E442-F7CC-45EF-8602-F599BEC09AB3}.Release|Win32.ActiveCfg = Release|Win32
+		{A647E442-F7CC-45EF-8602-F599BEC09AB3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
