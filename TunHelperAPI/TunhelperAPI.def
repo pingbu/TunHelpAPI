@@ -1,0 +1,17 @@
+LIBRARY		"TunHelperAPI.DLL"
+
+EXPORTS
+	OpenTun
+	CloseTun
+	GetTunMTU
+	GetTunFD
+	ClearIP
+	AddTunIpaddr
+	AddTunRoute
+    DelTunRoute
+	DelTunRouteAll
+	ConfigDHCP
+	ConfigTun
+	WinCreateEvent
+	ReadTun
+	WriteTun
